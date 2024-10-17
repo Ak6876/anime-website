@@ -1,0 +1,15 @@
+{
+  Page(perPage: 20) {
+	airingSchedules(sort: TIME_DESC, notYetAired: false) {
+      airingAt
+      episode
+      media {
+        id
+        idMal
+        title {
+          romaji
+        }
+      }
+    }
+  }
+}

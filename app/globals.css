@@ -6,3 +6,8 @@
 :root {
     color-scheme: dark;
 }
+@layer utilities{
+    .header {
+        @apply sticky top-3 z-20 flex items-center justify-between bg-zinc-900 px-[5%] py-5 shadow-lg xl:px-12;
+    }
+}

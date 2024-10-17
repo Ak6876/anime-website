@@ -1,7 +1,9 @@
+import NavigationBar from "@/components/NavigationBar";
+
 export default function Home() {
   return (
-    <h1 className="text-2xl">
-      recent anime
-    </h1>
+    <div className="min-w-screen header">
+      <NavigationBar/>
+    </div>
   );
 }
